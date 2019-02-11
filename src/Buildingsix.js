@@ -15,6 +15,7 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import { ListGroup, ListGroupItem } from 'reactstrap';
+import TableSix from './component/TableSix'
 
 const items = [
   {
@@ -110,12 +111,7 @@ class Buildingsix extends Component {
                   </Carousel>
                   <CardBody>
                     <CardText>อาคาร 6</CardText>
-                    <ListGroup>
-                      <ListGroupItem>เนื้อที่ปลูกสร้าง 2430.00 ตารางเมตร</ListGroupItem>
-                      <ListGroupItem>จำนวนชั้น 7 ชั้น</ListGroupItem>
-                      <ListGroupItem>เงินงบประมาณที่ใช้ 136,500,000.00 บาท</ListGroupItem>
-                      <ListGroupItem>ปลูกสร้างเสร็จเมื่อปี พ.ศ. 2552</ListGroupItem>
-                    </ListGroup>
+                    <TableSix />
                   </CardBody>
                 </Card><br></br>
               </Col>

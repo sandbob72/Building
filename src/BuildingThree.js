@@ -14,6 +14,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import TableThree from './component/TableThree'
 
 const items = [
   {
@@ -109,6 +110,7 @@ class BuildingThree extends Component {
                   </Carousel>
                   <CardBody>
                     <CardText>อาคาร 3</CardText>
+                    <TableThree />
                   </CardBody>
                 </Card><br></br>
               </Col>

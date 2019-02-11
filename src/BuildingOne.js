@@ -15,6 +15,7 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import { ListGroup, ListGroupItem } from 'reactstrap';
+import TableOne from './component/TableOne'
 
 const items = [
   {
@@ -113,13 +114,7 @@ class BuildingOne extends Component {
                   </Carousel>
                   <CardBody>
                     <CardText>อาคาร 1</CardText>
-                    <ListGroup>
-                      <ListGroupItem>...</ListGroupItem>
-                      <ListGroupItem>...</ListGroupItem>
-                      <ListGroupItem>...</ListGroupItem>
-                      <ListGroupItem>...</ListGroupItem>
-                      <ListGroupItem>...</ListGroupItem>
-                    </ListGroup>
+                    <TableOne />
                   </CardBody>
                 </Card><br></br>
               </Col>

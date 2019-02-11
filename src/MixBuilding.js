@@ -4,7 +4,7 @@ import b1 from './b1.jpg';
 import b2 from './b2.jpg';
 import b3 from './b3.jpg';
 import b5 from './b5.jpg';
-import b61 from './building/b6/b61.jpg';
+import b6 from './b6.jpg';
 import b7 from './b7.jpg';
 import b8 from './b8.jpg';
 import b9 from './b9.jpg';
@@ -79,7 +79,7 @@ class MixBuilding extends Component {
                   <CardTitle>อาคารเรียนรวมและปฏิบัติการกลาง</CardTitle>
                   <CardSubtitle>Central Academic and Laboratory Facility</CardSubtitle>
                 </CardBody>
-                <img width="100%" src={b61} />
+                <img width="100%" src={b6} />
                 <CardBody>
                   <CardText>อาคาร 6</CardText>
                   <CardLink href="/buildingsix"><Button color="info">รายละเอียด</Button></CardLink>

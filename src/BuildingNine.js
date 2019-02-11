@@ -4,6 +4,7 @@ import b9 from './b9.jpg';
 import './App.css';
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
+import TableNine from './component/TableNine'
 
 class BuildingNine extends Component{
     render(){
@@ -21,6 +22,7 @@ class BuildingNine extends Component{
                 <img width="100%" src={b9} />
                 <CardBody>
                   <CardText>ศูนย์กีฬา</CardText>
+                  <TableNine />
                 </CardBody>
               </Card><br></br>
               </Col>

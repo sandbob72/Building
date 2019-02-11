@@ -14,6 +14,7 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import { ListGroup, ListGroupItem } from 'reactstrap';
+import TableTwo from './component/TableTwo'
 const items = [
   {
     src: b21,
@@ -105,6 +106,7 @@ class BuildingTwo extends Component {
 
                   <CardBody>
                     <CardText>อาคาร 2</CardText>
+                    <TableTwo />
                   </CardBody>
                 </Card><br></br>
               </Col>

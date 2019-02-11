@@ -15,6 +15,7 @@ class App extends Component {
             <Row>
               <Col>
                 <Card className="App-header">
+                <CardText>PSU.Phuket Building</CardText>
                   <img width="80%" src={PSUbuilding} />
                 </Card><br></br>
               </Col>
